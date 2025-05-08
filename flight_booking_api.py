@@ -12,8 +12,8 @@ from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic_ai.messages import ModelMessage
 from pydantic_ai.usage import Usage, UsageLimits
 
-logfire.configure(service_name="flight_booking_app")
-logfire.instrument_httpx()
+# logfire.configure(service_name="flight_booking_app")
+# logfire.instrument_httpx()
 
 app = FastAPI()
 
